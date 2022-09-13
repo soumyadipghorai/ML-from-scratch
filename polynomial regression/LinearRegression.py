@@ -1,5 +1,5 @@
 import numpy as np 
-
+from tqdm import tqdm
 
 class LinearRegression : 
     def __init__(self) : 
@@ -69,7 +69,7 @@ class LinearRegression :
         self.w_all = []
         self.err_all = []
         
-        for i in np.arange(0, num_epochs) : 
+        for i in tqdm(np.arange(0, num_epochs)) : 
             dJdW = self.calculate_gradient(X, y)
             self.w_all.append(self.w)
             self.err_all.append(self.loss(X, y))
@@ -83,7 +83,7 @@ class LinearRegression :
         self.w_all = []
         self.err_all = []
         
-        for i in np.arange(0, num_epochs) : 
+        for i in tqdm(np.arange(0, num_epochs)) : 
             dJdW = self.calculate_gradient(X, y)
             self.w_all.append(self.w)
             self.err_all.append(self.loss(X, y))
@@ -97,7 +97,7 @@ class LinearRegression :
         self.err_all = []
         mini_batch_id = 0 
 
-        for epoch in range(num_epochs) : 
+        for epoch in tqdm(range(num_epochs)) : 
             shuffled_indices = np.random.permutation(X.shape[0])    
             X_shuffled = X[shuffled_indices]
             y_shuffled = y[shuffled_indices]
@@ -119,7 +119,7 @@ class LinearRegression :
         self.w_all = []
         self.err_all = []
         
-        for epoch in range(num_epochs) : 
+        for epoch in tqdm(range(num_epochs)) : 
             for i in range(X.shape[0]) : 
                 random_index = np.random.randint(X.shape[0])
                 xi = X[random_index : random_index+1]
