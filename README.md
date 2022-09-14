@@ -4,48 +4,46 @@ I have been doing my **BSc Data Science** from **IITM** and there as a part of t
 
 ------------------------------- 
 
-<!-- ## Document Structure 
+## Document Structure 
 
 ```
-Personal Finance 
+ML-from-scratch 
 │
-|---- __pycache__
-|
-|---- .streamlit
-|   |---- config.toml
-|
-|---- data 
-|   |---- bangalore - item.csv
-|   |---- bangalore - Total_spending.csv
-|
-|---- demo 
-|   |---- __pycache__
-|   |---- data
-|   |   |---- bangalore - item.csv
-|   |   |---- bangalore - Total_spending.csv
-|   |
-|   |---- demoapp.py
-|   |---- democalss.py
-|   |---- README.md
-|   
-|---- results
-|   |---- Personal Finance.mp4
-|   |---- Screenshot.png
-|
-|---- static
-|   |---- compressed_heroimage.gif
-|   |---- hero_image.gif
-|
-|---- app.py
-|---- exploratory_data_analysis.ipynb
-|---- finance.py
-|---- markdown.py
-|---- Procfile 
+|---- ANN
+|---- Decision Tree 
+|---- Gradient Boosting
+|---- Gradient Descent
+|---- KMeans clustering 
+|---- KNN 
+|     |--- KNN_visualization 
+|     |--- KNN
+|---- Least sq Classifier
+|     |--- LeastSquareClassifier_visualization 
+|     |--- LeastSquareClassifier
+|---- Linear Regression
+|     |--- LinearRegression_visualization 
+|     |--- LinearRegression
+|---- Logistic Regression
+|     |--- LogisticRegression_visualization 
+|     |--- LogisticRegression
+|---- Naive Bayes
+|     |--- BernoulliNB
+|     |--- GaussianNB
+|     |--- MultinomialNB
+|     |--- naiveBayes_visualization
+|---- Polynomial regression
+|     |--- polynomialRegression_visualization 
+|     |--- LinearRegression
+|---- Random Forest
+|     |--- randomForest_visualization 
+|     |--- RandomForest
+|---- Softmax Regression
+|---- SVM
 |---- README.md
 |---- requirements.txt
-|---- setup.sh
 
-``` -->
+
+```
 ---------------------
 <p align="left">
     <img src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/>
